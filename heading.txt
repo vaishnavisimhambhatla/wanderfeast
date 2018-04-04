@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Henny Penny' rel='stylesheet'>
+<meta name="viewport" content="width=device-width,height=device-height, initial-scale=1.0">
+</head>
+<style>
+header{
+	position: fixed;
+	width: 100%;
+	top:0%;
+	left:0%;
+    height: 120px;
+    background-color: black;
+	margin:0px 0px;
+	padding:0px 0px;
+	border-bottom: 2px solid #262626;
+}
+
+div.an{
+	position:fixed;
+	left:35%;
+	top:5px;
+    background-color: black;
+    animation: mymove 4s ;
+	font-size:3em;
+	color: white;
+	text-align:center;
+	font-family:'Henny Penny';
+	
+}
+div.an1{
+	position:fixed;
+	right:36%;
+	top:30px;
+    background-color: black;
+    animation: mymove1 4s ;
+	font-size:3em;
+	color: white;
+	text-align:center;
+	font-family:'Henny Penny';
+	
+}
+@keyframes mymove {
+    from {left: 0%;}
+    to {left:35%;}
+}
+@keyframes mymove1 {
+    from {right: 0%;}
+    to {right:36%;}
+}
+</style>
+<body>
+<header>
+</header>
+<div class="an">
+Wander 
+</div>
+<div class="an1">
+Feast
+</div>
+
+ </body>
